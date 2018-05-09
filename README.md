@@ -1,0 +1,2 @@
+# PropertyCollectorRoslyn
+This program extracts all properties from a SyntaxTree which was defined in the main method. It uses Roslyn to find all Properties and searches through all classes of the Tree to find them. The advantage of using Roslyn over Reflection for this task is that it can also extract the XML-Summary of a property. The PropertyProcessor class includes methods to print all Properties, to create a switch case statement to call every Property and a method to write all properties to a csv file.
